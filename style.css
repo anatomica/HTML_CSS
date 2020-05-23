@@ -1,0 +1,109 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.content {
+    min-height: calc(95vh - 90px);
+}
+
+.horizon_menu {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Segoe Script", serif;
+    text-align: center;
+}
+
+.horizon_menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 30px; /* Отступ слева */
+    /*border: 1px solid #000; !* Рамка вокруг текста *!*/
+    /*padding: 3px; !* Поля вокруг текста *!*/
+}
+
+.storeName {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Segoe Script", serif;
+    text-align: center;
+}
+
+.hello {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe Script", serif;
+    text-align: center;
+}
+
+.textOnView {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #eaeaea;
+}
+
+.textShortView {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.textLongView {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.textInLongView {
+    color: #707070;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.messageText {
+    width: 33%;
+    height: 300px;
+    font-size: 24px;
+    font-weight: lighter;
+    background-color: floralwhite;
+}
+
+.typeTextInput {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: floralwhite;
+}
+
+.bigImageView {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.smallImageView {
+    border: 5px solid antiquewhite;
+    padding: 5px;
+    height: 200px;
+}
+
+.map {
+    alignment: center;
+}
+
+.footer {
+    background-color: #434445;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 90px;
+}
