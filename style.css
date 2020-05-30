@@ -2,29 +2,36 @@ body {
     background-color: #f8f8f8;
 }
 
-.header {
-    display: flex;
-    vertical-align: baseline;
+.container {
+    width: 100%;
+    margin: auto 0 auto 0;
 }
 
-.content {
-    min-height: calc(77vh - 90px);
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
 .logo {
     margin: auto 0 auto 0;
-    vertical-align: top;
     width: 20%;
 }
 
 .menu {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
-    width: 60%;
     font-size: 24px;
     font-weight: 300;
     font-family: "Segoe Script", serif;
     text-align: center;
+}
+
+.cart {
+    margin: auto 0 auto 0;
+    width: 20%;
 }
 
 .menu_list {
@@ -40,6 +47,30 @@ body {
 
 .menu_link:hover {
     color: lightskyblue;
+}
+
+.content {
+    min-height: calc(77vh - 90px);
+}
+
+.productContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: self-start;
+}
+
+.imageContent {
+    display: block;
+    margin-top: 0;
+    margin-left: 10%;
+}
+
+.textContent {
+    margin-left: 5%;
+}
+
+.buyItem {
 }
 
 .storeName {
@@ -119,24 +150,30 @@ input{
 
 .bigImageView {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto;
     height: 350px;
 }
 
 .smallImageView {
+    display: block;
+    margin: auto auto;
     border: 5px solid antiquewhite;
     padding: 5px;
     height: 200px;
 }
 
 .smallImageView:hover {
-    border: 5px solid #f8f8f8;
+    border: 5px solid transparent;
 }
 
 .logo_img {
-    margin-left: 10%;
+    margin-left: 3%;
     height: 100px;
+}
+
+.cart_img{
+    margin-left: 40%;
+    height: 70px;
 }
 
 .table {
@@ -149,8 +186,38 @@ input{
     text-align: center;
 }
 
+.textOnCenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.sendForm {
+    margin-left: 5%;
+}
+
 .map {
-    alignment: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    height: 150%;
+    width: 100%;
+    margin-right: 50px;
+    background-color: green;
+    color: white;
+}
+
+.button:hover {
+    background-color: greenyellow;
+    color: black;
 }
 
 .footer {
