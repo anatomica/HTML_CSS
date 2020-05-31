@@ -2,17 +2,12 @@ body {
     background-color: #f8f8f8;
 }
 
-.container {
-    width: 100%;
-    margin: auto 0 auto 0;
-}
-
 .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    /*height: 100px;*/
 }
 
 .logo {
@@ -21,12 +16,9 @@ body {
 }
 
 .menu {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
     font-size: 24px;
     font-weight: 300;
     font-family: "Segoe Script", serif;
-    text-align: center;
 }
 
 .cart {
@@ -35,10 +27,8 @@ body {
 }
 
 .menu_list {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 30px; /* Отступ слева */
-    /*border: 1px solid #000; !* Рамка вокруг текста *!*/
-    /*padding: 3px; !* Поля вокруг текста *!*/
+    list-style-type: none;
+    margin: auto 50px auto 0;
 }
 
 .menu_link{
@@ -53,6 +43,11 @@ body {
     min-height: calc(77vh - 90px);
 }
 
+.container {
+    width: 100%;
+    margin: auto 0 auto 0;
+}
+
 .productContent {
     display: flex;
     flex-wrap: wrap;
@@ -62,8 +57,7 @@ body {
 
 .imageContent {
     display: block;
-    margin-top: 0;
-    margin-left: 10%;
+    margin: 0 0 0 10%;
 }
 
 .textContent {
@@ -83,8 +77,6 @@ body {
 .hello {
     font-size: 20px;
     font-weight: normal;
-    font-family: "Segoe Script", serif;
-    text-align: center;
 }
 
 .textOnView {
@@ -148,18 +140,16 @@ input{
     text-transform: capitalize;
 }
 
-.bigImageView {
+.imageView {
     display: block;
     margin: auto auto;
     height: 350px;
 }
 
 .smallImageView {
-    display: block;
-    margin: auto auto;
+    height: 200px;
     border: 5px solid antiquewhite;
     padding: 5px;
-    height: 200px;
 }
 
 .smallImageView:hover {
