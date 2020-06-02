@@ -2,6 +2,12 @@ body {
     background-color: #f8f8f8;
 }
 
+.container {
+    width: 100%;
+    min-height: calc(100vh - 130px);
+    margin: auto 0 auto 0;
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -40,12 +46,6 @@ body {
 }
 
 .content {
-    min-height: calc(77vh - 90px);
-}
-
-.container {
-    width: 100%;
-    margin: auto 0 auto 0;
 }
 
 .productContent {
@@ -158,12 +158,12 @@ input{
 
 .logo_img {
     margin-left: 3%;
-    height: 100px;
+    height: 80px;
 }
 
 .cart_img{
     margin-left: 40%;
-    height: 70px;
+    height: 60px;
 }
 
 .table {
