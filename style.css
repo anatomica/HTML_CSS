@@ -3,9 +3,9 @@ body {
 }
 
 .container {
-    width: 100%;
+    max-width: 95%;
     min-height: calc(100vh - 130px);
-    margin: auto 0 auto 0;
+    margin: 0 auto;
 }
 
 .header {
@@ -162,7 +162,7 @@ input{
 }
 
 .cart_img{
-    margin-left: 40%;
+    margin-left: 60%;
     height: 60px;
 }
 
