@@ -220,3 +220,7 @@ input{
     font-weight: 100;
     line-height: 90px;
 }
+
+@media (max-width: 1023px) {
+    
+}
