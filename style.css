@@ -2,36 +2,39 @@ body {
     background-color: #f8f8f8;
 }
 
-.header {
-    display: flex;
-    vertical-align: baseline;
+.container {
+    max-width: 95%;
+    min-height: calc(100vh - 130px);
+    margin: 0 auto;
 }
 
-.content {
-    min-height: calc(77vh - 90px);
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /*height: 100px;*/
 }
 
 .logo {
     margin: auto 0 auto 0;
-    vertical-align: top;
     width: 20%;
 }
 
 .menu {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-    width: 60%;
     font-size: 24px;
     font-weight: 300;
     font-family: "Segoe Script", serif;
-    text-align: center;
+}
+
+.cart {
+    margin: auto 0 auto 0;
+    width: 20%;
 }
 
 .menu_list {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 30px; /* Отступ слева */
-    /*border: 1px solid #000; !* Рамка вокруг текста *!*/
-    /*padding: 3px; !* Поля вокруг текста *!*/
+    list-style-type: none;
+    margin: auto 50px auto 0;
 }
 
 .menu_link{
@@ -40,6 +43,28 @@ body {
 
 .menu_link:hover {
     color: lightskyblue;
+}
+
+.content {
+}
+
+.productContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: self-start;
+}
+
+.imageContent {
+    display: block;
+    margin: 0 0 0 10%;
+}
+
+.textContent {
+    margin-left: 5%;
+}
+
+.buyItem {
 }
 
 .storeName {
@@ -52,8 +77,6 @@ body {
 .hello {
     font-size: 20px;
     font-weight: normal;
-    font-family: "Segoe Script", serif;
-    text-align: center;
 }
 
 .textOnView {
@@ -117,26 +140,30 @@ input{
     text-transform: capitalize;
 }
 
-.bigImageView {
+.imageView {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto;
     height: 350px;
 }
 
 .smallImageView {
+    height: 200px;
     border: 5px solid antiquewhite;
     padding: 5px;
-    height: 200px;
 }
 
 .smallImageView:hover {
-    border: 5px solid #f8f8f8;
+    border: 5px solid transparent;
 }
 
 .logo_img {
-    margin-left: 10%;
-    height: 100px;
+    margin-left: 3%;
+    height: 80px;
+}
+
+.cart_img{
+    margin-left: 60%;
+    height: 60px;
 }
 
 .table {
@@ -149,8 +176,38 @@ input{
     text-align: center;
 }
 
+.textOnCenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.sendForm {
+    margin-left: 5%;
+}
+
 .map {
-    alignment: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    height: 150%;
+    width: 100%;
+    margin-right: 50px;
+    background-color: green;
+    color: white;
+}
+
+.button:hover {
+    background-color: greenyellow;
+    color: black;
 }
 
 .footer {
